@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    position: relative;
+}
+#top{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(255,128,0);
+}
+
+#img{
+    padding:20px 20px 0px;
+    float: left;
+}
+
+#logo{
+    background: url("images/download.png") no-repeat;
+    height: 100px;
+    width: auto;
+}
+
+#name{
+  
+    padding: 20px 20px;
+    float: left;
+    font-weight: 600;
+    font-size: 1.7em;
+    font-style: italic;
+    position: relative;;
+    top: -110px;
+    left:99px;
+}
+
+#top ul{
+    float: right;
+    list-style: none;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+
+#top ul li{
+    display: inline;
+    padding-right: 10px;
+}
+
+#top ul li a{
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: rgba(64,28,128);
+  padding: 10px 27px 10px;
+  border:1px solid black;
+  border-radius: 5cm;
+}
+
+#top ul li a:hover{
+    background-color: white;
+}
+
+#container {
+  
+    padding-left: 550px;
+}
+
+#container div{
+    font-size: 1.6em;
+    text-align: center;
+    height: 200px;
+    width: 400px;
+}
+
+#container div a {
+    text-decoration: none;
+}
+
+body #container div a:hover{
+    background-color: black;
+} 
+
+#container div a div{
+    padding-top: 20px;
+    background-color: rgba(239,228,176,0.6);
+    border: 5px solid aqua;
+    border-radius: 25cm;
+    height: 75px;
+    width: 400px;
+}
+
+#container #join{
+    margin-top:100px
+}
+
+
+#head{
+    margin-top: -217px;
+    font-size: 1.3em;
+}
+
+#head #lines{
+    padding: 10px 0px 15px 15px;
+}
+
+form{
+    margin: 150px 500px;
+    padding: 20px 30px;
+    height: 350px;
+    width: 400px;
+    border: 3px solid purple;
+    background-color: saddlebrown;
+    font-size: 1.3em;
+}
+
+form #label{
+    margin:50px
+}
+
+form #label input{
+ margin-left: 30px;
+ height: 30px;
+ width: 160px;
+ font-size: 1.3em;
+}
+
+form #label #pass, form #label #time{
+    margin-left: 65px;
+}
+ 
+form #map{
+    margin:0px;
+    padding: 0px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+form #map #mapname{
+    margin-left: 13px;
+}
