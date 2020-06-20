@@ -34,6 +34,15 @@ body{
     top: -110px;
     left:99px;
 }
+button{
+    float: right;
+    margin: 100px;
+    border:1px solid black;
+}
+.icon-bar{
+    border:1px solid black
+}
+
 
 #top ul{
     float: right;
@@ -62,8 +71,7 @@ body{
 }
 
 #container {
-  
-    padding-left: 550px;
+    padding-left: 40%;
 }
 
 #container div{
@@ -82,7 +90,7 @@ body #container div a:hover{
 } 
 
 #container div a div{
-    padding-top: 20px;
+    padding-top: 10px;
     background-color: rgba(239,228,176,0.6);
     border: 5px solid aqua;
     border-radius: 25cm;
@@ -138,4 +146,46 @@ form #map{
 
 form #map #mapname{
     margin-left: 13px;
+}
+
+@media(max-width:767px){
+    #top ul{
+        float: left;
+        list-style: none; 
+        margin:0;
+        
+    }
+    
+    
+
+    
+    #top ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: rgba(64,28,128);
+    padding:0;
+    
+    }
+
+    
+    #container div{
+        font-size: 1.2em;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+    }
+    #container {
+        padding-left: 20%;
+    }
+    ul{
+        display: none;
+    }
+    #container div a div{
+        padding-top: 10px;
+        height: 50px;
+        width: 200px;
+    }
+
 }
